@@ -7,7 +7,7 @@ Impostor is a Python script that identifies Instagram accounts you are following
 
 1. Clone the repository or download the zip:
     ```
-    git clone https://github.com/yourusername/impostor.git
+    git clone https://github.com/m3hu1/impostor.git
     ```
 2. Navigate to the project directory:
     ```
