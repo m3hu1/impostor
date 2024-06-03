@@ -1,6 +1,8 @@
 # Impostor
 
-Impostor is a Python script that identifies Instagram accounts you are following but are not following you back. It uses the `instaloader` library to interact with Instagram and fetch follower and following data.
+Impostor is a Python script that identifies Instagram accounts you are following but are not following you back. It uses the `instaloader` library to interact with Instagram and fetch follower and following data.<br>
+
+**No need to use any fishy third-party apps!**
 
 
 ## Installation
