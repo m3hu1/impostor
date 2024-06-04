@@ -23,6 +23,10 @@ def findImpostors(followings, followers):
     dhokebaaz = followings - followers
     return dhokebaaz
 
+def getFullName(instance, username):
+    profile = instaloader.Profile.from_username(instance.context, username)
+    return profile.full_name
+
 if __name__ == '__main__':
     username = input("Enter your username: ")
     password = getpass.getpass("Enter your password: ") # Added this to hide the password while typing
@@ -32,6 +36,10 @@ if __name__ == '__main__':
 
     dhokebaaz = findImpostors(followings, followers)
 
-    print("Here are the impostors:\n")
-    for user in dhokebaaz:
-        print(user)
+    instance = instaloader.Instaloader()
+
+    print("Here are the impostors with their profile links and full names:\n")
+    for idx, user in enumerate(dhokebaaz, 1):
+        full_name = getFullName(instance, user)
+        profile_link = f"https://www.instagram.com/{user}"
+        print(f"{idx}. {user}, {full_name}, {profile_link}")
