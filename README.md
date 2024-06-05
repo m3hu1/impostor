@@ -54,3 +54,10 @@ impostor_user2
 <br>
 
 > This uses [instaloader](https://instaloader.github.io/) module to fetch instagram data which is an open-source python library, therefore it is safe to do this and won't get your instagram account credentials stolen.
+
+
+
+## DISCLAIMER
+
+While using this tool is generally safe, Instagram's terms of service do not allow automated scraping or interaction with their platform. Use this script at your own risk.
+Using this tool once or twice should still be safe.
