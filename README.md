@@ -61,3 +61,5 @@ impostor_user2
 
 While using this tool is generally safe, Instagram's terms of service do not allow automated scraping or interaction with their platform. Use this script at your own risk.
 Using this tool once or twice should still be safe.
+
+However, if you want to be completely safe, you can make your original account public, make a new instagram account and pass those credentials in `impostor_public.py` and then provide the username of your original instagram account when prompted and that should keep your original account completely safe from any types of warnings or bans.
