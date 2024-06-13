@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     dhokebaaz = findImpostors(followings, followers)
 
-    instance = instaloader.Instaloader()
+    # instance = instaloader.Instaloader()
 
     # print("Here are the impostors with their profile links and full names:\n")
     print("Here are the impostors with their profile links:\n")
