@@ -38,8 +38,9 @@ if __name__ == '__main__':
 
     instance = instaloader.Instaloader()
 
-    print("Here are the impostors with their profile links and full names:\n")
+    # print("Here are the impostors with their profile links and full names:\n")
+    print("Here are the impostors with their profile links:\n")
     for idx, user in enumerate(dhokebaaz, 1):
-        full_name = getFullName(instance, user)
+        # full_name = getFullName(instance, user)
         profile_link = f"https://www.instagram.com/{user}"
-        print(f"{idx}. {user}, {full_name}, {profile_link}")
+        print(f"{idx}. {user}, {profile_link}")
